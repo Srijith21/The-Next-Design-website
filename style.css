@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Gordita-Bold";
+    src: url(./Assets/fonts/Gordita/Gordita\ Bold.woff) format("woff");
+  }
+@font-face {
+    font-family: "Gordita";
+    src: url(./Assets/fonts/Gordita/Gordita\ Regular.woff) format("woff");
+  }
+h1{
+    font-family:Gordita-Bold;
+}
+*{
+    font-family: Gordita;
+}
+a{
+    font-family: Gordita;
+    text-decoration: none;
+}
+p{
+    font-family: Gordita;
+    line-height: 1.5rem;
+}
+ul{
+    padding: 0;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+    
+}
+.container {
+    width: 90%;
+    margin: auto;
+  }
+.keyword{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: #8873EF;
+    font-size: 20px;
+    transform: rotate(-22deg);
+    font-family: Gordita;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////<-- header-bar --> */
+#header-bar{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 0 auto;
+}
+.logo{
+    width: 20%;
+}
+.navbar{
+    width: 50%;
+}
+.navbar ul{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navbar ul li{
+    margin:0 15px ;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li a{
+    color: #898989;
+    font-weight: bold;
+    position: relative;
+}
+.navbar ul li a:active{
+    color: black;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+    
+}
+
+.log-in-box{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.log-in{
+    margin: 0 15px;
+    background: #050EE7;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+.log-in a{
+    color: #fff;
+}
+.sidebar-button-div{
+    display: none;
+}
+#sidebar-button{
+    display: none;
+}
+/* ------------------------------------------------------------------980px responsive-----Header-----*/
+
+@media all and (max-width: 980px) {
+    #header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: block;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+        
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #1F6BFF;
+        font-size: 12px;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 12px;
+        background: #050EE7;
+        border-radius: 5px;
+        padding: 10px 30px;
+    }
+    .log-in a{
+        color: #fff;
+        font-size: 12px;
+    } 
+}
+/* ------------------------------------------------------------------768px responsive-----Header-----*/
+
+/* ------------------------------------------------------------------640px responsive-----Header-----*/
+
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+
+/* ------------------------------------------------------------------360px responsive-----Header-----*/
+
+
