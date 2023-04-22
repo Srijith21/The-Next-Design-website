@@ -3419,3 +3419,521 @@ input[type=email] {
         border: none;
     }
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////Service-----*/
+#Services{
+    margin: auto;
+    padding: 50px 0;
+}
+.wrapper.Services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Services-left{
+    width: 50%;
+}
+.Services-left h1{
+    font-size: 35px;
+    width: 50%;
+}
+.Services-left p{
+    font-size: 15px;
+    width: 70%;
+}
+.violet-arrow-box{
+    display: flex;
+    align-items: center;
+}
+.violet-arrow{
+    background: #9747FF;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.get-started.Service{
+    border-radius: 70px ;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.Services-right{
+    width: 50%;
+}
+.Services-right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Services-right ul li{
+    width: 45%;
+    margin: 25px 10px;
+}
+.Services-right ul li img{
+    width: 55px;
+    height: 55px;
+}
+.Services-right ul li h6{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.Services-right ul li p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.Services-right ul li a{
+    font-size: 15px;
+    margin: 10px 0;
+}
+/* ------------------------------------------------------------------1280px responsive-----Services-----*/
+@media all and (max-width: 1280px){
+    #Services{
+        margin: auto;
+        padding: 50px 0;
+    }
+    .wrapper.Services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Services-left{
+        width: 50%;
+    }
+    .Services-left h1{
+        font-size: 35px;
+        width: 60%;
+    }
+    .Services-left p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .violet-arrow-box{
+        display: flex;
+        align-items: center;
+    }
+    .violet-arrow{
+        background: #9747FF;
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .get-started.Service{
+        border-radius: 70px ;
+        margin: 25px 0;
+        font-size: 15px;
+    }
+    
+    .Services-right{
+        width: 50%;
+    }
+    .Services-right ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Services-right ul li{
+        width: 45%;
+        margin: 25px 10px;
+    }
+    .Services-right ul li img{
+        width: 55px;
+        height: 55px;
+    }
+    .Services-right ul li h6{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .Services-right ul li p{
+        font-size: 13px;
+        margin: 20px 0;
+    }
+    .Services-right ul li a{
+        font-size: 11px;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Services-----*/
+@media all and (max-width: 980px){
+    #Services{
+        margin: auto;
+        padding: 50px 0;
+    }
+    .wrapper.Services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Services-left{
+        width: 50%;
+    }
+    .Services-left h1{
+        font-size: 35px;
+        width: 75%;
+    }
+    .Services-left p{
+        font-size: 12px;
+        width: 70%;
+    }
+    .violet-arrow-box{
+        display: flex;
+        align-items: center;
+    }
+    .violet-arrow{
+        background: #9747FF;
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .violet-arrow-box span{
+        font-size: 12px;
+    }
+    .get-started.Service{
+        border-radius: 70px ;
+        margin: 25px 0;
+        font-size: 15px;
+    }
+    
+    .Services-right{
+        width: 50%;
+    }
+    .Services-right ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Services-right ul li{
+        width: 45%;
+        margin: 25px 10px;
+    }
+    .Services-right ul li img{
+        width: 55px;
+        height: 55px;
+    }
+    .Services-right ul li h6{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .Services-right ul li p{
+        font-size: 13px;
+        margin: 20px 0;
+    }
+    .Services-right ul li a{
+        font-size: 11px;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Services-----*/
+@media all and (max-width: 768px){
+    #Services{
+        margin: auto;
+        padding: 50px 0;
+    }
+    .wrapper.Services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Services-left{
+        width: 50%;
+    }
+    .Services-left h1{
+        font-size: 30px;
+        width: 75%;
+    }
+    .Services-left p{
+        font-size: 12px;
+        width: 70%;
+    }
+    .violet-arrow-box{
+        display: flex;
+        align-items: center;
+    }
+    .violet-arrow{
+        background: #9747FF;
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .violet-arrow-box span{
+        font-size: 12px;
+    }
+    .get-started.Service{
+        border-radius: 70px ;
+        margin: 25px 0;
+        font-size: 15px;
+    }
+    
+    .Services-right{
+        width: 50%;
+    }
+    .Services-right ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Services-right ul li{
+        width: 38%;
+        margin: 25px 10px;
+    }
+    .Services-right ul li img{
+        width: 50px;
+        height: 50px;
+    }
+    .Services-right ul li h6{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .Services-right ul li p{
+        font-size: 10px;
+        margin: 20px 0;
+    }
+    .Services-right ul li a{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Services-----*/
+@media all and (max-width: 640px){
+    #Services{
+        margin: auto;
+        padding: 50px 0;
+    }
+    .wrapper.Services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Services-left{
+        width: 100%;
+    }
+    .Services-left h1{
+        font-size: 32px;
+        width: 90%;
+    }
+    .Services-left p{
+        font-size: 13px;
+        width: 90%;
+    }
+    .violet-arrow-box{
+        display: flex;
+        align-items: center;
+    }
+    .violet-arrow{
+        background: #9747FF;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .violet-arrow-box span{
+        font-size: 10px;
+    }
+    .get-started.Service{
+        border-radius: 70px ;
+        margin: 25px 0;
+        font-size: 13px;
+    }
+    
+    .Services-right{
+        width: 100%;
+    }
+    .Services-right ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Services-right ul li{
+        width: 40%;
+        margin: 25px 10px;
+    }
+    .Services-right ul li img{
+        width: 43px;
+        height: 43px;
+    }
+    .Services-right ul li h6{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+    .Services-right ul li p{
+        font-size: 10px;
+        margin: 20px 0;
+    }
+    .Services-right ul li a{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Services-----*/
+@media all and (max-width: 480px){
+    #Services{
+        margin: auto;
+        padding: 50px 0;
+    }
+    .wrapper.Services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Services-left{
+        width: 100%;
+    }
+    .Services-left h1{
+        font-size: 32px;
+        width: 90%;
+    }
+    .Services-left p{
+        font-size: 13px;
+        width: 90%;
+    }
+    .violet-arrow-box{
+        display: flex;
+        align-items: center;
+    }
+    .violet-arrow{
+        background: #9747FF;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .violet-arrow-box span{
+        font-size: 10px;
+    }
+    .get-started.Service{
+        border-radius: 70px ;
+        margin: 25px 0;
+        font-size: 13px;
+    }
+    
+    .Services-right{
+        width: 100%;
+    }
+    .Services-right ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Services-right ul li{
+        width: 40%;
+        margin: 25px 10px;
+    }
+    .Services-right ul li img{
+        width: 43px;
+        height: 43px;
+    }
+    .Services-right ul li h6{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+    .Services-right ul li p{
+        font-size: 10px;
+        margin: 20px 0;
+    }
+    .Services-right ul li a{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Services-----*/
+@media all and (max-width: 360px){
+    #Services{
+        margin: auto;
+        padding: 50px 0;
+    }
+    .wrapper.Services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Services-left{
+        width: 100%;
+    }
+    .Services-left h1{
+        font-size: 26px;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .Services-left p{
+        font-size: 10px;
+        margin: 15px auto;
+        width: 90%;
+    }
+    .violet-arrow-box{
+        display: flex;
+        align-items: center;
+    }
+    .violet-arrow{
+        background: #9747FF;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .violet-arrow-box span{
+        font-size: 10px;
+    }
+    .get-started.Service{
+        border-radius: 70px ;
+        margin: 25px auto;
+        font-size: 13px;
+    }
+    
+    .Services-right{
+        width: 100%;
+    }
+    .Services-right ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Services-right ul li{
+        width: 40%;
+        margin: 25px 10px;
+    }
+    .Services-right ul li img{
+        width: 43px;
+        height: 43px;
+    }
+    .Services-right ul li h6{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+    .Services-right ul li p{
+        font-size: 8px;
+        margin: 20px 0;
+    }
+    .Services-right ul li a{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
