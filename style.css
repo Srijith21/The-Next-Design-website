@@ -4209,4 +4209,340 @@ input[type=email] {
     }
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////Newsletter-----*/
 
+#Newsletter{}
+.wrapper.Newsletter{}
+.Newsletter-content-box{
+    background: #050EE7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+.Newsletter-left{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+}
+.Newsletter-left h4{
+    font-size: 25px;
+}
+.Newsletter-left h6{
+    font-size: 12px;
+}
+.Newsletter-right{
+    width: 50%;
+}
+.Newsletter-input-box{
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-input{
+    border-radius: 15px 0px 0px 15px;
+    background: #fff;
+    padding: 19px 15px;
+    width: 70%;
+    border: none;
+}
+.Discover-button{
+    color: #fff;
+    background: #0b6b04;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+.Discover-button img{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+/* ------------------------------------------------------------------980px responsive-----Newsletter-----*/
+@media all and (max-width: 980px){
+#Newsletter{
+    margin: 50px auto;
+}
+.wrapper.Newsletter{}
+.Newsletter-content-box{
+    background: #050EE7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+.Newsletter-left{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+}
+.Newsletter-left h4{
+    font-size: 20px;
+}
+.Newsletter-left h6{
+    font-size: 8px;
+}
+.Newsletter-right{
+    width: 50%;
+}
+.Newsletter-input-box{
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-input{
+    border-radius: 15px 0px 0px 15px;
+    background: #fff;
+    padding: 19px 15px;
+    width: 70%;
+    border: none;
+}
+.Discover-button{
+    color: #fff;
+    background: #0b6b04;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+.Discover-button img{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+}
+/* ------------------------------------------------------------------768px responsive-----Newsletter-----*/
+@media all and (max-width: 768px){
+#Newsletter{
+    margin: 50px auto;
+}
+.wrapper.Newsletter{}
+.Newsletter-content-box{
+    background: #050EE7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+.Newsletter-left{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+.Newsletter-left h4{
+    font-size: 20px;
+}
+.Newsletter-left h6{
+    font-size: 8px;
+}
+.Newsletter-right{
+    width: 80%;
+    margin: auto;
+
+}
+.Newsletter-input-box{
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-input{
+    border-radius: 15px 0px 0px 15px;
+    background: #fff;
+    padding: 19px 15px;
+    width: 70%;
+    border: none;
+}
+.Discover-button{
+    color: #fff;
+    background: #0b6b04;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+.Discover-button img{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+}
+/* ------------------------------------------------------------------480px responsive-----Newsletter-----*/
+@media all and (max-width: 480px){
+#Newsletter{
+    margin: 50px auto;
+}
+.wrapper.Newsletter{}
+.Newsletter-content-box{
+    background: #050EE7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+.Newsletter-left{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+.Newsletter-left h4{
+    font-size: 20px;
+}
+.Newsletter-left h6{
+    font-size: 8px;
+}
+.Newsletter-right{
+    width: 80%;
+    margin: auto;
+
+}
+.Newsletter-input-box{
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-input{
+    border-radius: 15px 0px 0px 15px;
+    background: #fff;
+    padding: 19px 15px;
+    width: 70%;
+    border: none;
+}
+.Newsletter-input::placeholder{
+    font-size: 5px;
+}
+.Discover-button{
+    color: #fff;
+    background: #0b6b04;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+.Discover-button img{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+}
+/* ------------------------------------------------------------------360px responsive-----Newsletter-----*/
+@media all and (max-width: 360px){
+#Newsletter{
+    margin: 50px auto;
+}
+.wrapper.Newsletter{}
+.Newsletter-content-box{
+    background: #050EE7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+.Newsletter-left{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+.Newsletter-left h4{
+    font-size: 23px;
+}
+.Newsletter-left h6{
+    font-size: 10px;
+}
+.Newsletter-right{
+    width: 100%;
+    margin: auto;
+
+}
+.Newsletter-input-box{
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-input{
+    border-radius: 15px 0px 0px 15px;
+    background: #fff;
+    padding: 19px 15px;
+    width: 70%;
+    border: none;
+}
+.Newsletter-input::placeholder{
+    font-size: 5px;
+}
+.Discover-button{
+    color: #fff;
+    background: #0b6b04;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+.Discover-button img{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+}
