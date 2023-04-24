@@ -357,7 +357,7 @@ ul li{
     }
     .header-logo{
         display: block;
-        width: 75%;
+        width: 60%;
         margin: auto;
     }
     .navbar{
@@ -1195,14 +1195,11 @@ input[type=email] {
     justify-content: space-between;
 }
 input[type=email] {
-    width: 40%;
+    width: 60%;
     padding: 8px 15px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-  }
-  input[type=text]::placeholder{
-    font-size: 13px;
     font-family: Gordita;
   }
 .get-started{
@@ -4623,7 +4620,7 @@ input[type=email] {
     width: 60%;
 }
 .footer-bottom-left p{
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 600;
     color: #898989;
     text-align: start;
@@ -4632,7 +4629,7 @@ input[type=email] {
     width: 35%;
 }
 .footer-bottom-right p{
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 600;
     color: #898989;
     text-align: end;
